@@ -1,0 +1,11 @@
+show databases;
+create database FacePrep;
+use FacePrep;
+create table students(id int, name varchar(50), dept varchar(20));
+insert into students values(68,"Vasu","BCA");
+select * from students;
+show tables;
+select * from STUDENTS;
+drop table student;
+select * from student;
+select * from emp;
